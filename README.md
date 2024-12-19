@@ -37,6 +37,16 @@ orignal from : https://github.com/ankitpokhrel/tus-php/wiki/Laravel-&-Lumen-Inte
 12/ i have successsfuly test this tus-php service on macos and win11.
   
 
++++++++++++++==============================================+++++++++++++++++++++++++++++++++++
+after files successfully uploaded, the file name is kept as orignal in the server's uploads folder ,
+fetch link like this form: 
+https://tootzoe.com/tus/c65f48fe-0aea-4945-a43f-b73900a4331d/get
+
+
+
+
+
+
 
 
 
