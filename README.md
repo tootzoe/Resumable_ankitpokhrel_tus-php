@@ -29,12 +29,17 @@ orignal from : https://github.com/ankitpokhrel/tus-php/wiki/Laravel-&-Lumen-Inte
 9/ if we don't use CSRF validation, we can disable it, 
    go to : (projRoot)/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php
    set  protected $except = ['tus/*',];
+
+10/ if selected "file" rather than "redis" storage interface, needs to config :
+    (PrjRoot)/vendor/ankitpokhrel/tus-php/src/Config/server.php for cache location,
+    because some apache host dosen't allow wirte file except specifically path location.
+    the cache file listed all uploaded files.
    
-10/ we can test tus-php service now....
+11/ we can test tus-php service now....
 
-11/ if test using attached sample clients(basic, partial, uppy), check the target host URL is the same as current running server's URL
+12/ if test using attached sample clients(basic, partial, uppy), check the target host URL is the same as current running server's URL
 
-12/ i have successsfuly test this tus-php service on macos and win11.
+13/ i have successsfuly test this tus-php service on macos and win11.
   
 
 +++++++++++++==============================================+++++++++++++++++++++++++++++++++++
